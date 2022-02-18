@@ -24,6 +24,8 @@ for x in test_data:
     print(f'{x} = 0')
 ```
 
+(![image](https://user-images.githubusercontent.com/13535954/154632237-862ef94a-a2b6-40b6-a8f4-8ec35c9a5c58.png)
+
 ```plain
 step =  0 loss value =  2.835243992618905
 step =  3000 loss value =  2.6522861520968903
@@ -45,4 +47,5 @@ step =  30000 loss value =  0.05376022277921273
 ## LINK
 
 [Blog](https://jehwanyoo.net/2022/02/18/%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D%EC%9D%84-%ED%95%B4%EB%B3%B4%EC%9E%90-4%EC%9E%A5-%EB%94%A5-%EB%9F%AC%EB%8B%9D/)
+
 [Google Colab](https://colab.research.google.com/drive/1qal22C73QJZ8mIop1yFyZA5kyDJtuIjz?usp=sharing)
