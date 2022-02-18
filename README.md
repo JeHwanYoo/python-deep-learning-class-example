@@ -5,6 +5,8 @@ Python Deep Learning Class Example
 
 ![XOR Problem](https://i.ibb.co/jGscxQw/XOR.png)
 
+![image](https://user-images.githubusercontent.com/13535954/154632237-862ef94a-a2b6-40b6-a8f4-8ec35c9a5c58.png)
+
 ## Examples
 
 ```python
@@ -23,8 +25,6 @@ for x in test_data:
   else:
     print(f'{x} = 0')
 ```
-
-(![image](https://user-images.githubusercontent.com/13535954/154632237-862ef94a-a2b6-40b6-a8f4-8ec35c9a5c58.png)
 
 ```plain
 step =  0 loss value =  2.835243992618905
