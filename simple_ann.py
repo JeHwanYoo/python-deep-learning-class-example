@@ -64,19 +64,19 @@ class ANN:
   def sigmoid(z):
     return 1 / (1+np.exp(z))
 
-  # XOR Problem Example
-  if __name__ == '__main__':
-    xdata = np.array([[0, 0],[0, 1],[1, 0],[1, 1]]).reshape(4,2)
-    tdata = np.array([0, 1, 1, 0]).reshape(4,1)
+# XOR Problem Example
+if __name__ == '__main__':
+  xdata = np.array([[0, 0],[0, 1],[1, 0],[1, 1]]).reshape(4,2)
+  tdata = np.array([0, 1, 1, 0]).reshape(4,1)
 
-    xor_model = ANN([(2, 2), (2, 1)])
-    xor_model.train(xdata, tdata, epochs=30001)
+  xor_model = ANN([(2, 2), (2, 1)])
+  xor_model.train(xdata, tdata, epochs=30001)
 
-    test_data = np.array([[0, 0],[0, 1],[1, 0],[1, 1]])
+  test_data = np.array([[0, 0],[0, 1],[1, 0],[1, 1]])
 
-    for x in test_data:
-      y = xor_model.predict(x)
-      if y >= 0.5:
-        print(f'{x} = 1')
-      else:
-        print(f'{x} = 0')
+  for x in test_data:
+    y = xor_model.predict(x)
+    if y >= 0.5:
+      print(f'{x} = 1')
+    else:
+      print(f'{x} = 0')
