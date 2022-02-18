@@ -65,7 +65,7 @@ class ANN:
     return 1 / (1+np.exp(z))
 
   # XOR Problem Example
-  if __name__ == 'main':
+  if __name__ == '__main__':
     xdata = np.array([[0, 0],[0, 1],[1, 0],[1, 1]]).reshape(4,2)
     tdata = np.array([0, 1, 1, 0]).reshape(4,1)
 
