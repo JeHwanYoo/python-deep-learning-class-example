@@ -46,6 +46,4 @@ step =  30000 loss value =  0.05376022277921273
 
 ## LINK
 
-[Blog](https://jehwanyoo.net/2022/02/18/%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D%EC%9D%84-%ED%95%B4%EB%B3%B4%EC%9E%90-4%EC%9E%A5-%EB%94%A5-%EB%9F%AC%EB%8B%9D/)
-
 [Google Colab](https://colab.research.google.com/drive/1qal22C73QJZ8mIop1yFyZA5kyDJtuIjz?usp=sharing)
