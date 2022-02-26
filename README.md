@@ -3,27 +3,7 @@ Python Deep Learning Class Example
 
 ## Back-propagation
 
-### Output layer loss
-
-$$
-loss_{out} = (A_{out}-T)\cdot A_{out}\cdot (1-A_{out})
-$$
-
-### Hidden layer loss
-
-$$
-loss_{h} = (loss_{h+1} \cdot (W_{h+1})^{T})\cdot A_{h} \cdot (1-A_h)
-$$
-
-### Learning
-
-$$
-W_i = W_i - \alpha ((A_{i-1})^T \cdot loss_i
-$$
-
-$$
-b_i = b_i - \alpha \cdot loss_i
-$$
+<img src="https://i.ibb.co/CK2S892/2022-02-26-5-15-51.png" alt="2022-02-26-5-15-51" border="0">
 
 ## LINK
 
