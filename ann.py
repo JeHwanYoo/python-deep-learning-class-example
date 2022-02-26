@@ -50,12 +50,12 @@ class ANN:
     # 먼저 feed forward 를 통해서 최종 출력값과 이를 바탕으로 현재의 에러 값 계산
     self.feed_forward()
     
-    # 출력층 역전오차파
+    # 출력층 오차역전파
     loss = (self.A[-1]-self.target_data) * self.A[-1] * (1-self.A[-1])
     self.W[-1] = self.W[-1] - learning_rate * np.dot(self.A[-2].T, loss)   
     self.b[-1] = self.b[-1] - learning_rate * loss 
 
-    # 은닉층 역전오차파
+    # 은닉층 오차역전파
     for i in range(self.N-2, 0, -1):
       loss = np.dot(loss, self.W[i+1].T) * self.A[i] * (1-self.A[i])
       self.W[i] = self.W[i] - learning_rate * np.dot(self.A[i-1].T, loss)   
