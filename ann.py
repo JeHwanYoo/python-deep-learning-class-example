@@ -1,3 +1,5 @@
+import numpy as np
+
 class ANN:
   def __init__(self, nodes):
     self.W = [None]
