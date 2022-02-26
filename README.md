@@ -3,7 +3,7 @@ Python Deep Learning Class Example
 
 ## Back-propagation
 
-<img src="https://i.ibb.co/CK2S892/2022-02-26-5-15-51.png" alt="2022-02-26-5-15-51" border="0" width="600">
+<img src="https://i.ibb.co/ZVN9QhY/2022-02-26-7-26-38.png" alt="2022-02-26-5-15-51" border="0" width="600">
 
 ## Reference
 
